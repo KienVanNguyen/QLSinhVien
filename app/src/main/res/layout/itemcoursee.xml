@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:id="@+id/Ngay"
+            android:text="Ngày"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/Phong"
+            android:text="Phòng"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/GiangDuong"
+            android:text="Giang Đường"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/MaMon"
+            android:text="Mã Môn"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/Lop"
+            android:text="Lớp"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/GiangVien"
+            android:text="Giang Viên"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/SlotthoiGiang"
+            android:text="Slot Thời Gian"
+            android:layout_weight="1"
+            />
+    </TableRow>
+</LinearLayout>

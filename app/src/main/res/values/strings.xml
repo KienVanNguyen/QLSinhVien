@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Hỗ Trợ Học Tập</string>
+    <string name="facebook_app_id">319898619292110</string>
+    <string name="fb_login_protocol_scheme">fb319898619292110</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="googlemap_key">AIzaSyBDw_ocO8KVEdWr3n4SEd_IEYkR7LJw7kE</string>
+    <string-array name="maptype">
+        <item>Normal</item>
+        <item>Hybrid</item>
+        <item>Satellite</item>
+        <item>Terrain</item>
+        <item>None</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Activity.CourseActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:text="Course"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="40sp" />
+    <Button
+        android:id="@+id/btnDKHoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/et_bg"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginLeft="25dp"
+        android:text="ĐĂNG KÝ HỌC"
+        android:textAllCaps="false"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/btnLichHoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnDKHoc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/et_bg"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginLeft="25dp"
+        android:text="XEM LỊCH HỌC"
+        android:textAllCaps="false"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/btnLichThi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLichHoc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/et_bg"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginLeft="25dp"
+        android:text="XEM LỊCH THI"
+        android:textAllCaps="false"
+        android:textSize="20dp" />
+
+</RelativeLayout>

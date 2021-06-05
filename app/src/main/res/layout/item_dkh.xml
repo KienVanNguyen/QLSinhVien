@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    card_view:cardCornerRadius="8dp"
+    card_view:cardElevation="2dp"
+    android:layout_marginBottom="3dp"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp">
+        <ImageView
+            android:id="@+id/ivDKH"
+            android:layout_width="48dp"
+            android:layout_height="56dp"
+            android:scaleType="fitXY" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@+id/ivDKH"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="Name: "
+                android:textColor="#000000"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tvtenMon"
+                android:text="Môn: "
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:singleLine="true"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/tvNgay"
+                android:text="Ngày: "
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:singleLine="true"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/ivDelete"
+            android:layout_width="48dp"
+            android:layout_height="56dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/delete" />
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
